@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.env
+*.venv
+.env
+.venv
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Data files (if >25MB or private)
+*.csv
+*.xlsx
+*.tsv
+
+# Env / Package Management
+Pipfile
+Pipfile.lock
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# Logs or dumps
+*.log
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Ignore model binaries if added later
+*.pkl
+*.h5
+*.joblib
